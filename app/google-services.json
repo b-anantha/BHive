@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001394980012",
+    "firebase_url": "https://bhive-aae3b.firebaseio.com",
+    "project_id": "bhive-aae3b",
+    "storage_bucket": "bhive-aae3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001394980012:android:8ee8aed310e8895c",
+        "android_client_info": {
+          "package_name": "dev.banantha.bhive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001394980012-8j855gmhmjh6b5hh26ab7nlc30134eeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.banantha.bhive",
+            "certificate_hash": "1940966ad1bfbd3f457e413a411d6c56a8507753"
+          }
+        },
+        {
+          "client_id": "1001394980012-q5svb1q0o2aebbu0hfmv0b2ij0u5sapj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy8D3Vxo735eU2pep4vLDEdjXyjGY66Uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001394980012-q5svb1q0o2aebbu0hfmv0b2ij0u5sapj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

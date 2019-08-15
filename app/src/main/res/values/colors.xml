@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="home_cards_background">#F7A923</color>
+    <color name="home_cards_font">#263238</color>
+    <color name="keeper_cards_background">#142634</color>
+    <color name="keeper_cards_font">#FFC224</color>
+</resources>

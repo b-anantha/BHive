@@ -1,0 +1,67 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+            app:title="@string/setup_header">
+
+        <EditTextPreference
+                app:key="web_service"
+                app:title="@string/web_service_title"
+                app:useSimpleSummaryProvider="true"
+        />
+        <EditTextPreference
+                app:key="cipher"
+                app:title="@string/cipher_title"
+                app:useSimpleSummaryProvider="true"
+        />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            app:title="@string/preferences_header">
+
+        <SwitchPreferenceCompat
+                app:key="home_security"
+                app:title="@string/home_security_title"
+                app:summaryOn="@string/home_security_summary_on"
+                app:summaryOff="@string/home_security_summary_off"
+        />
+        <SwitchPreferenceCompat
+                app:key="login_security"
+                app:title="@string/login_security_title"
+                app:summaryOn="@string/login_security_summary_on"
+                app:summaryOff="@string/login_security_summary_off"
+        />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            app:title="@string/developer_header">
+
+        <Preference
+                app:key="build_version"
+                app:title="Build Version"
+                app:summary="0.0.1"
+        />
+        <Preference
+                app:key="build_date"
+                app:title="Build Date"
+                app:summary="20190525"
+        />
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

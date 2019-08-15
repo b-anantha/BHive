@@ -1,0 +1,85 @@
+<resources>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="climate_hours">12</string>
+
+    <!-- App -->
+    <string name="title_activity_navigation">B Hive</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_keeper">Keeper</string>
+
+    <!-- Home -->
+    <string name="app_name">B Hive</string>
+    <string name="sync_time_label">Last Sync:</string>
+    <string name="sync_time_value">N/A</string>
+    <string name="hostname_title">Hostname</string>
+    <string name="hostname_value">N/A</string>
+    <string name="cpu_temp_title">CPU Temp</string>
+    <string name="cpu_temp_value">N/A</string>
+    <string name="cpu_freq_title">CPU Freq</string>
+    <string name="cpu_freq_value">N/A</string>
+    <string name="wifi_strength_title">WiFi Strength</string>
+    <string name="wifi_strength_value">N/A</string>
+
+    <!-- Keeper -->
+    <string name="front_door_title">Front Door</string>
+    <string name="front_door_state">N/A</string>
+    <string name="front_door_time">N/A</string>
+    <string name="garage_door_title">Garage Door</string>
+    <string name="garage_door_state">N/A</string>
+    <string name="garage_door_time">N/A</string>
+    <string name="back_door_title">Back Door</string>
+    <string name="back_door_state">N/A</string>
+    <string name="back_door_time">N/A</string>
+    <string name="study_window_title">Study Window</string>
+    <string name="study_window_state">N/A</string>
+    <string name="study_window_time">N/A</string>
+    <string name="bedroom_window_title">Bedroom Window</string>
+    <string name="bedroom_window_state">N/A</string>
+    <string name="bedroom_window_time">N/A</string>
+    <string name="kitchen_window_title">Kitchen Window</string>
+    <string name="kitchen_window_state">N/A</string>
+    <string name="kitchen_window_time">N/A</string>
+    <string name="lounge_window_title">Lounge Window</string>
+    <string name="lounge_window_state">N/A</string>
+    <string name="lounge_window_time">N/A</string>
+    <string name="bay_window_title">Bay Window</string>
+    <string name="bay_window_state">N/A</string>
+    <string name="bay_window_time">N/A</string>
+    <string name="master_window_title">Master Window</string>
+    <string name="master_window_state">N/A</string>
+    <string name="master_window_time">N/A</string>
+    <string name="bathroom_window_title">Bathroom Window</string>
+    <string name="bathroom_window_state">N/A</string>
+    <string name="bathroom_window_time">N/A</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="nav_header_title">B Hive</string>
+    <string name="nav_header_subtitle">banantha</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_keeper">Keeper</string>
+    <string name="menu_slideshow">Climate</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- Settings -->
+    <string name="setup_header">Setup</string>
+    <string name="preferences_header">Preferences</string>
+    <string name="developer_header">Developer</string>
+
+    <!-- Settings: Setup -->
+    <string name="web_service_title">Web Service</string>
+    <string name="cipher_title">Cipher</string>
+
+    <!-- Settings: Preferences -->
+    <string name="home_security_title">Home Security</string>
+    <string name="home_security_summary_on">A notification will be received for change in port status.</string>
+    <string name="home_security_summary_off">Disabled notification for port status changes.</string>
+    <string name="login_security_title">Login Security</string>
+    <string name="login_security_summary_on">A notification will be received for remote login attempts.</string>
+    <string name="login_security_summary_off">Disabled notification for remote login attempts.</string>
+    <string name="title_activity_climate">Climate</string>
+</resources>
